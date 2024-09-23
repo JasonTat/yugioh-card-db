@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = yugioh_card_db
+build_property.RootNamespace = yugioh_card_db
+build_property.ProjectDir = D:\personal projects\yugioh-card-db\ver-aspnet\yugioh-card-db\yugioh-card-db\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\personal projects\yugioh-card-db\ver-aspnet\yugioh-card-db\yugioh-card-db
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-je843bpwdb
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-az5mh9so9p
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal projects/yugioh-card-db/ver-aspnet/yugioh-card-db/yugioh-card-db/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
