@@ -9,13 +9,12 @@
 
 <h1>Hello, world!</h1>
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
-
-
 <div>
-
+    
+    <p>Card Name is: @newFact.Fact</p>
+</div>
+@* 
+<div>
     <p>name (exact name)</p>
     <p>fname (ex: search all cards that contain "magician")</p>
     <p>id</p>
@@ -41,30 +40,28 @@ Welcome to your new app.
     <p></p>
     <p></p>
 </div>
-
+ *@
 
 
 @code {
-    public class Card
+
+    public class CatFact
     {
-        public int Id { get; set; }
-        public string Name {get;set;}
-        public string Type { get; set; }
-        public string FrameType { get; set; }
-        public string Description { get; set; }
-        public string YGPRODECK_URL { get; set; }
+        public string Fact { get; set; }
     }
-
-
 
     public class ApiResponse
     {
         public string[] data { get; set; }
     }
 
-    static async Task GetCard(string[] args)
+    CatFact newFact = new CatFact();
+
+
+    public async Task GetCard(string[] args)
     {
-        string url = "https://db.ygoprodeck.com/api/v7/cardinfo.php";
+        // string url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Dark%Magician";
+        string url = "https://meowfacts.herokuapp.com/";
 
         using (HttpClient client = new HttpClient())
         {
@@ -74,15 +71,14 @@ Welcome to your new app.
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
 
-                //deserialize json res
+                // deserialize json res
                 ApiResponse apiRes = JsonSerializer.Deserialize<ApiResponse>(responseBody);
 
-                //output string inside the data
-
-
-
-
-
+                // output string inside the data
+                if(apiRes?.data != null)
+                {
+                    newFact.Fact = apiRes.data[0];
+                }   
             }
             catch (HttpRequestException e)
             {

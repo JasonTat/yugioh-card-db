@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\yugioh-card-db.props" />
+</Project>
