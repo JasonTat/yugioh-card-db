@@ -1,6 +1,6 @@
 # yugioh-card-db
 
-## This project is just a personal project to showcase my skills with consuming external API's and using it on a web app with C# ASP.NET
+## This project is just a personal project to learn and showcase my skills in consuming external API's and using it on a web app with C# ASP.NET
 
 ## API Source: https://ygoprodeck.com/api-guide/
 
