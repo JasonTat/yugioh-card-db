@@ -5,84 +5,153 @@
 
 @page "/"
 
-<PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
+<PageTitle>Yugioh Card Database</PageTitle>
 
 <div>
-    
-    <p>Card Name is: @newFact.Fact</p>
-</div>
-@* 
-<div>
-    <p>name (exact name)</p>
-    <p>fname (ex: search all cards that contain "magician")</p>
-    <p>id</p>
-    <p>konami_id</p>
-    <p>type</p>
-    <p>atk</p>
-    <p>def</p>
-    <p>level</p>
-    <p>race(spellcaster, warrior, insect, etc, also used for spell/trap cards like continuos, field, etc)</p>
-    <p>attribute</p>
-    <p>Link</p>
-    <p>linkmarker(Top, Bottom, Left, Right, Bottom-Left, Bottom-Right, Top-Left, Top-Right)</p>
-    <p>scale(pendulum scale value)</p>
-    <p>cardset(metal raiders, soul fusion, etc)</p>
-    <p>archetype(Dark Magician, Blue-Eyes, etc)</p>
-    <p>banlist</p>
-    <p>sort</p>
-    <p>format</p>
-    <p>misc (pass 'yes' to show additional response info)</p>
-    <p>staple(checks if card is staple)</p>
-    <p>has_effect(check if the card has an effect, pass in true/false value to this param)</p>
-    <p>startdate, enddate, dateregion (based on cards release date). pass dateregion as tcg(default)( or ocg</p>
-    <p></p>
-    <p></p>
-</div>
- *@
+    <h2>Search for a card! </h2>
+    <div>
+        <label>Card Name: </label>
+        <input @bind=@cardNameQuery type="text" />
+    </div>
+    <button @onsubmit="OnSearch">Search!</button>
 
+</div>
+
+
+@if (searchedCard is not null && !string.IsNullOrWhiteSpace(searchedCard.cardName))
+{
+    <div>    
+    <p>Card Name: @searchedCard.cardName</p>
+    <p>Type: @searchedCard.typeline</p>
+    <p>ATK: @searchedCard.atk</p>
+    <p>DEF: @searchedCard.def</p>
+    <p>Level: @searchedCard.level</p>
+    <p>Archetype: @searchedCard.archetype</p>
+
+    @if(searchedCard.card_images is not null)
+    {
+        <a href="@searchedCard.card_images[0].image_url">
+            <img style="width: 23rem;" src="@searchedCard.card_images[0].image_url" />
+        </a>
+
+        <div></div>
+
+        @foreach (CardImages link in searchedCard.card_images.Skip(1))
+        {
+            <a href="@link.image_url">
+                <img style="width: 14rem;" src="@link.image_url" alt="searchedCard.cardName Image" />
+            </a>
+        }
+    }
+    else
+    {
+        <p>no images available</p>
+    }    
+
+</div>    
+}
 
 @code {
+    #region classes 
 
-    public class CatFact
+    public class YugiohCard
     {
-        public string Fact { get; set; }
+        public string cardName { get; set; }
+        public string typeline { get; set; }
+        public string atk { get; set; }
+        public string def { get; set; }
+        public string level { get; set; }
+        public string attribute { get; set; }
+        public string archetype { get; set; }
+        public string firstImage { get; set; }
+        public CardImages[]? card_images { get; set; }
+    }
+
+    public class CardImages
+    {
+        public int id{ get; set; }
+        public string? image_url { get; set; }
+    }
+
+    public class CardData
+    {
+        public string name { get;set; }
+        public string[] typeline { get; set; }
+        public int atk { get; set; }
+        public int def { get; set; }
+        public int level { get; set; }
+        public string attribute { get; set; }
+        public string archetype { get; set; }
+        public string image_url { get; set; }
+        public CardImages[]? card_images { get; set; }
     }
 
     public class ApiResponse
     {
-        public string[] data { get; set; }
+        public CardData[] data { get; set; }
     }
 
-    CatFact newFact = new CatFact();
+    #endregion
 
-
-    public async Task GetCard(string[] args)
+    #region startup method
+    protected override async Task OnInitializedAsync()
     {
-        // string url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Dark%Magician";
-        string url = "https://meowfacts.herokuapp.com/";
+        await GetCard();
+    }
+    #endregion
 
-        using (HttpClient client = new HttpClient())
+    #region page variables
+
+    YugiohCard searchedCard = new YugiohCard();
+    public CardImages[] imagesToListMinusFirst { get; set; }
+
+    //user input
+    public string? cardNameQuery { get; set; }
+
+
+    #endregion
+
+    public async Task OnSearch()
+    {
+        await GetCard();
+    }
+
+    public async Task GetCard()
+    {
+        if (cardNameQuery is not null)
         {
-            try
+            string encodedInput = cardNameQuery.Replace(" ", "%20");
+            string url = $"https://db.ygoprodeck.com/api/v7/cardinfo.php?fname={encodedInput}";
+
+            using (HttpClient client = new HttpClient())
             {
-                HttpResponseMessage response = await client.GetAsync(url);
-                response.EnsureSuccessStatusCode();
-                string responseBody = await response.Content.ReadAsStringAsync();
-
-                // deserialize json res
-                ApiResponse apiRes = JsonSerializer.Deserialize<ApiResponse>(responseBody);
-
-                // output string inside the data
-                if(apiRes?.data != null)
+                try
                 {
-                    newFact.Fact = apiRes.data[0];
-                }   
-            }
-            catch (HttpRequestException e)
-            {
-                Console.WriteLine($"Request error: {e.Message}");
+                    HttpResponseMessage response = await client.GetAsync(url);
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    // deserialize json res
+                    ApiResponse apiRes = JsonSerializer.Deserialize<ApiResponse>(responseBody);
+
+                    // output string inside the data
+                    if (apiRes?.data != null)
+                    {
+                        searchedCard.cardName = apiRes.data[0].name;
+                        searchedCard.typeline = string.Join(", ", apiRes.data[0].typeline);
+                        searchedCard.atk = apiRes.data[0].atk.ToString();
+                        searchedCard.def = apiRes.data[0].def.ToString();
+                        searchedCard.level = apiRes.data[0].level.ToString();
+                        searchedCard.attribute = apiRes.data[0].attribute;
+                        searchedCard.archetype = apiRes.data[0].archetype;
+                        searchedCard.card_images = apiRes.data[0].card_images;
+
+                    }
+                }
+                catch (HttpRequestException e)
+                {
+                    Console.WriteLine($"Request error: {e.Message}");
+                }
             }
         }
 
@@ -95,9 +164,15 @@
 
 
 
+
+
+
+
+
+
     }
 
-
+     
 
 
 
