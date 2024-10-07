@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yugioh-card-db")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f32b7c869e6dc1a596c6b5fce581f9541ec5c32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6705ae9982f638f4a3d1929df6d9cd662a08163b")]
 [assembly: System.Reflection.AssemblyProductAttribute("yugioh-card-db")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yugioh-card-db")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

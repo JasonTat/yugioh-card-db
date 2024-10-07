@@ -2,12 +2,18 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using yugioh_card_db.Data;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+
+//card service 
+builder.Services.AddScoped<CardService>();
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

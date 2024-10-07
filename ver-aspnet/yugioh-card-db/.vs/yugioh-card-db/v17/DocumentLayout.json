@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\pages\\allcardlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\pages\\allcardlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\models\\cardimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\models\\cardimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\models\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\models\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\models\\cardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\models\\cardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\yugioh-card-db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\yugioh-card-db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|d:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D622EE24-3B3B-4269-9B01-40A132288442}|yugioh-card-db\\yugioh-card-db.csproj|solutionrelative:yugioh-card-db\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,6 +44,20 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Services\\CardService.cs",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Services\\CardService.cs",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Services\\CardService.cs",
+              "RelativeToolTip": "yugioh-card-db\\Services\\CardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T22:27:56.521Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
@@ -50,78 +72,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "yugioh-card-db\\Pages\\Counter.razor",
-              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\Counter.razor",
-              "RelativeToolTip": "yugioh-card-db\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T00:39:00.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "yugioh-card-db\\Pages\\_Layout.cshtml",
-              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "yugioh-card-db\\Pages\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T00:38:52.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Shared\\MainLayout.razor",
-              "RelativeDocumentMoniker": "yugioh-card-db\\Shared\\MainLayout.razor",
-              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Shared\\MainLayout.razor",
-              "RelativeToolTip": "yugioh-card-db\\Shared\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T00:37:53.396Z",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Models\\ApiResponse.cs",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "yugioh-card-db\\Models\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T22:08:14.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Shared\\NavMenu.razor",
-              "RelativeDocumentMoniker": "yugioh-card-db\\Shared\\NavMenu.razor",
-              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Shared\\NavMenu.razor",
-              "RelativeToolTip": "yugioh-card-db\\Shared\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T00:37:21.822Z",
+              "Title": "CardImage.cs",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardImage.cs",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Models\\CardImage.cs",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardImage.cs",
+              "RelativeToolTip": "yugioh-card-db\\Models\\CardImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T22:01:42.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "yugioh-card-db",
+              "DocumentIndex": 3,
+              "Title": "CardData.cs",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardData.cs",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Models\\CardData.cs",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardData.cs",
+              "RelativeToolTip": "yugioh-card-db\\Models\\CardData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T22:01:23.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardModel.cs",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardModel.cs",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Models\\CardModel.cs",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Models\\CardModel.cs",
+              "RelativeToolTip": "yugioh-card-db\\Models\\CardModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T21:41:02.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllCardList.razor",
+              "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\AllCardList.razor",
+              "RelativeDocumentMoniker": "yugioh-card-db\\Pages\\AllCardList.razor",
+              "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\AllCardList.razor",
+              "RelativeToolTip": "yugioh-card-db\\Pages\\AllCardList.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T21:39:45.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "yugioh-card-db.csproj",
               "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\yugioh-card-db.csproj",
               "RelativeDocumentMoniker": "yugioh-card-db\\yugioh-card-db.csproj",
               "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\yugioh-card-db.csproj",
               "RelativeToolTip": "yugioh-card-db\\yugioh-card-db.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-01T00:14:59.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Index.razor",
               "DocumentMoniker": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "yugioh-card-db\\Pages\\Index.razor",
               "ToolTip": "D:\\personal projects\\yugioh-card-db\\ver-aspnet\\yugioh-card-db\\yugioh-card-db\\Pages\\Index.razor",
               "RelativeToolTip": "yugioh-card-db\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAEBVwHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-23T00:42:49.894Z",
               "EditorCaption": ""
